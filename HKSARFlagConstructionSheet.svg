@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1100" height="800">
+	<defs>
+		<g id="a">
+			<path d="M0 0c-44.567-6.662-77.546-44.938-77.546-90S-44.566-173.338 0-180c-12.658 10.498-17.88 29.968-1.805 44.953 17.632 16.436 18.312 51.174-4.01 69.017C-23.214-52.123-31.852-17.645 0 0z" transform="rotate(13.48)" fill="#fff"/>
+			<g fill="#ee1c25">
+				<path transform="scale(15 -15) rotate(-5.48 76.245 8.364)" d="M0-1 .588.809-.952-.309H.952L-.588.809 0-1z"/>
+				<path d="M.104-1.429c-37.93-12.053-50.3-56.701-39.483-85.682l-2.474-.852C-52.48-61.061-42.445-11.99-.534 1.115L.104-1.43z" transform="rotate(13.48)"/>
+			</g>
+		</g>
+	</defs>
+	<g writing-mode="lr" font-size="25" font-family="Arial, Nimbus Sans L, Bitstream Vera Sans, Lucida,	Verdana, FreeSans, sans-serif, Times New Roman, FreeSerif, serif">
+		<path d="M100 100h900v600H100z" fill="#ee1c25"/>
+		<g transform="translate(550 400)">
+			<use width="900" height="600" xlink:href="#a"/>
+			<use transform="rotate(72)" width="900" height="600" xlink:href="#a"/>
+			<use transform="rotate(-72)" width="900" height="600" xlink:href="#a"/>
+			<use transform="rotate(144)" width="900" height="600" xlink:href="#a"/>
+			<use transform="rotate(-144)" width="900" height="600" xlink:href="#a"/>
+			<circle r="4" fill="red"/>
+		</g>
+		<g fill-rule="evenodd" stroke="#000" stroke-width="4">
+			<path d="M100 75h900M100 60v30m450-30v30m450-30v30"/>
+			<text x="225" y="-25" transform="translate(100 90)" text-anchor="middle" stroke-width="1">45</text>
+			<text x="675" y="-25" transform="translate(100 90)" text-anchor="middle" stroke-width="1">45</text>
+		</g>
+		<g fill-rule="evenodd" stroke="#000" stroke-width="4">
+			<path d="M1025 100v600m-15-600h30m-30 300h30m-30 300h30"/>
+			<text x="925" y="150" transform="translate(110 100)" stroke-width="1">30</text>
+			<text x="925" y="450" transform="translate(110 100)" stroke-width="1">30</text>
+		</g>
+		<g fill-rule="evenodd" stroke="#000" stroke-width="4">
+			<path d="M535 400h30m-15-15v30"/>
+			<g transform="translate(550 400)">
+				<circle r="180" fill="none"/>
+				<path d="M-225 0v-180M-240 0h30m-30-180h30"/>
+				<text x="-225" y="-90" transform="translate(-10)" text-anchor="end" stroke-width="1">18</text>
+			</g>
+			<path d="M550 400V140" stroke-dasharray="20"/>
+			<path d="m550 400 60.608-252.837M550 150a250 250 0 0 1 59.633 7.216"/>
+			<text y="-250" transform="translate(555 384)" font-size="20" stroke-width="1">13°48&apos;</text>
+		</g>
+	</g>
+</svg>
