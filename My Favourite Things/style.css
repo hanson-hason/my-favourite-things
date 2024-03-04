@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(210 210 210);
+    border: 10px solid black;
+    width: 700px;
+    margin:auto;
+    padding: 25px 18px;
+    border-radius: 50px;
+}
+
+
+h1 {
+    color: rgb(238 37 54);   
+}
+
+h2 {
+    color:red;
+    text-decoration:wavy;
+}
+
+li {
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
